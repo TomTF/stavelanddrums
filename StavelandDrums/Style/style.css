@@ -1,0 +1,363 @@
+﻿@font-face {
+    font-family: 'StMarie-Thin';
+    src: url('./StMarie-Thin.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: StMarie-Thin, 'Times New Roman', Times, serif !important;
+    color: #eee;
+    background: url(../../Images/greyzz.png) repeat;
+}
+
+
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #eee !important;
+}
+
+    nav a:hover {
+        color: #999 !important;
+    }
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+.navbar-brand, nav a {
+    font-size: 15px !important;
+}
+
+
+.navbar-default {
+    background-color: rgba(0,0,0,0.6) !important;
+    border-color: #000 !important;
+}
+
+#citation {
+    text-align: center;
+    font-size: 30px;
+}
+
+    #citation span {
+        font-size: 16px;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 10px;
+    }
+
+#landingpage {
+    margin: 0;
+    /*height: 800px;
+    background: url('/Images/background.jpg');*/
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+    #landingpage > img {
+        width: 100%;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    }
+
+    #landingpage > div {
+        text-align: center;
+        position: absolute;
+        
+        left: 0;
+        right: 0;
+        color: white;
+        text-shadow: 0 0 4px #000;
+    }
+
+@media screen and (min-width: 768px) {
+    #landingpage > div {
+        top: 200px;    
+    }
+
+    #landingpage > div > h1 {
+        font-size: 54px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #landingpage > div {
+        top: 50px;    
+    }
+
+    #landingpage > div > h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #landingpage > div > h2 {
+        font-size: 20px;
+    }
+}
+
+    
+/*@media screen and (max-width: 768px) {
+    #landingpage {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #landingpage {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #landingpage {
+        height: 800px;
+    }
+}*/
+
+section {
+    margin-top: 100px;
+    position: relative;
+}
+
+    section > header {
+        margin-bottom: 50px;
+    }
+
+    section > div {
+        text-align: center;
+        font-size: 25px;
+        padding: 40px !important;
+    }
+
+        section > div > h2 {
+            font-size: 30px;
+            margin-top: 20px;
+            padding: 4px 10px 50px 4px;
+        }
+
+    section .preview-image {
+        position: relative;
+        height: 350px;
+        background-position-y: center !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        background-position-x: center !important;
+    }
+
+        section .preview-image:hover {
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            cursor: pointer;
+        }
+
+
+        section .preview-image.snaredrums {
+            background-color: black !important;
+            background: url('../../Images/drums.jpg');
+        }
+
+
+        section .preview-image.brandings {
+            background-color: black !important;
+            background: url('../../Images/brandings/brandings.jpg');
+        }
+
+        section .preview-image.woodblocks {
+            background-color: #CDCBCE !important;
+            background: url('../../Images/woodblocks/woodblocks.jpg');
+        }
+
+        section .preview-image.werkstatt {
+            background-color: black !important;
+            background: url('../../Images/werkstatt/werkstatt.jpg');
+        }
+
+        section .preview-image > .heading-background, section .preview-image > .heading {
+            position: absolute;
+            height: 36px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        section .preview-image > .heading-background {
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        section .preview-image > .heading {
+            color: white;
+        }
+
+
+    section .image-list > div {
+        height: 100px;
+        margin-bottom: 20px;
+        line-height: 100px;
+    }
+
+    section .image-list > div {
+        text-align: left;
+    }
+
+    section .image-list.right > div {
+        text-align: right;
+    }
+
+    section .image-list > div > img {
+        height: 100px;
+        width: 100px;
+    }
+
+/*Customer section*/
+#customers > div {
+    height: 150px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+    #customers > div.comment {
+        padding-top: 75px !important;
+    }
+
+    #customers > div > i {
+        display: block;
+    }
+
+    #customers > div.text-right {
+        text-align: right;
+    }
+
+    #customers > div > img {
+        height: 150px;
+        width: 150px;
+        text-align: left;
+    }
+
+
+/* parallax headers */
+.section-header {
+    height: 150px;
+    position: relative;
+}
+
+    .section-header .image {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        display: inline-block;
+    }
+
+
+@media screen and (min-width: 768px) {
+
+
+    #stavelanddrums .section-header .image {
+        right: 380px;
+    }
+
+    #gallery .section-header .image {
+        left: 240px;
+    }
+
+    #product .section-header .image {
+        right: 280px;
+    }
+
+    #customers .section-header .image {
+        left: 430px;
+    }
+
+    #price .section-header .image {
+        right: 220px;
+    }
+
+    #contact .section-header .image {
+        left: 240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-header .image {
+        width: 100% !important;
+    }
+}
+
+
+
+
+.section-header h1 {
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    vertical-align: top;
+    padding: 27px;
+    margin: 0;
+    right: 0;
+    margin-top: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    .section-header h1 {
+        color: white;
+        text-shadow: 0 0 8px black;
+    }
+}
+
+.section-header.right .image {
+    height: 100%;
+    right: 0;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+
+.section-header.right h1 {
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    vertical-align: top;
+    padding: 27px;
+    margin: 0;
+    left: 0;
+    margin-top: 27px;
+}
+
+.parallax-mirror {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+@media screen and (min-width: 768px) {
+    .parallax-mirror:nth-child(even) {
+        border-radius: 0 75px 75px 0;
+    }
+
+    .parallax-mirror:nth-child(odd) {
+        border-radius: 75px 0 0 75px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .parallax-mirror:nth-child(even) {
+        border-radius: 0;
+    }
+
+    .parallax-mirror:nth-child(odd) {
+        border-radius: 0;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    section {
+        margin-top: 200px;
+    }
+
+        section .section-header {
+            margin-bottom: 200px;
+        }
+}

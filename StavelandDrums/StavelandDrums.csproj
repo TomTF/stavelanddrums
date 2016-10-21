@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{3C81AED7-AE1B-4E4E-B004-FDCDC7F6EDED}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\brandings\brandings.jpg" />
+    <Content Include="Images\brandings\1.jpg" />
+    <Content Include="Images\brandings\2.jpg" />
+    <Content Include="Images\brandings\3.jpg" />
+    <Content Include="Images\brandings\4.jpg" />
+    <Content Include="Images\brandings\5.jpg" />
+    <Content Include="Images\drum.jpg" />
+    <Content Include="Images\background.jpg" />
+    <Content Include="Images\greyzz.png" />
+    <Content Include="Images\ignasi_pattern_s.png" />
+    <Content Include="Images\oberflächen\lackiert.jpg" />
+    <Content Include="Images\oberflächen\geoelt.jpg" />
+    <Content Include="Images\parallax\block1.jpg" />
+    <Content Include="Images\parallax\block4.jpg" />
+    <Content Include="Images\parallax\block2.jpg" />
+    <Content Include="Images\snaredrums\1.jpg" />
+    <Content Include="Images\snaredrums\2.jpg" />
+    <Content Include="Images\snaredrums\3.jpg" />
+    <Content Include="Images\snaredrums\4.jpg" />
+    <Content Include="Images\snaredrums\5.jpg" />
+    <Content Include="Images\snaredrums\6.jpg" />
+    <Content Include="Images\snaredrums\snaredrums.jpg" />
+    <Content Include="Images\drums.jpg" />
+    <Content Include="Images\tree_bark.png" />
+    <Content Include="Images\werkstatt\werkstatt.jpg" />
+    <Content Include="Images\woodblocks\1.jpg" />
+    <Content Include="Images\woodblocks\2.jpg" />
+    <Content Include="Images\woodblocks\3.jpg" />
+    <Content Include="Images\woodblocks\4.jpg" />
+    <Content Include="Images\woodblocks\5.jpg" />
+    <Content Include="Images\woodblocks\6.jpg" />
+    <Content Include="Images\woodblocks\woodblocks.jpg" />
+    <Content Include="img\icons.png" />
+    <Content Include="img\icons.svg" />
+    <Content Include="img\loader.gif" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery.swipebox.js" />
+    <Content Include="Scripts\jquery.swipebox.min.js" />
+    <Content Include="Scripts\parallax.min.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Style\style.css" />
+    <Content Include="Style\swipebox.css" />
+    <Content Include="Style\swipebox.min.css" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="Style\StMarie-Thin.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="stavelanddrums - Web Deploy.pubxml" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>StavelandDrums</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58447</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58447/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
