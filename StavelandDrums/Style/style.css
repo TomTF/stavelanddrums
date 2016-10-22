@@ -38,6 +38,10 @@ nav a {
     border-color: #000 !important;
 }
 
+.img-circle.shadow {
+    box-shadow: black 0 0 5px;
+}
+
 #citation {
     text-align: center;
     font-size: 30px;
@@ -67,7 +71,6 @@ nav a {
     #landingpage > div {
         text-align: center;
         position: absolute;
-        
         left: 0;
         right: 0;
         color: white;
@@ -76,31 +79,31 @@ nav a {
 
 @media screen and (min-width: 768px) {
     #landingpage > div {
-        top: 200px;    
+        top: 200px;
     }
 
-    #landingpage > div > h1 {
-        font-size: 54px;
-        font-weight: bold;
-    }
+        #landingpage > div > h1 {
+            font-size: 54px;
+            font-weight: bold;
+        }
 }
 
 @media screen and (max-width: 768px) {
     #landingpage > div {
-        top: 50px;    
+        top: 50px;
     }
 
-    #landingpage > div > h1 {
-        font-size: 30px;
-        font-weight: bold;
-    }
+        #landingpage > div > h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
 
-    #landingpage > div > h2 {
-        font-size: 20px;
-    }
+        #landingpage > div > h2 {
+            font-size: 20px;
+        }
 }
 
-    
+
 /*@media screen and (max-width: 768px) {
     #landingpage {
         height: 350px;
@@ -159,6 +162,33 @@ section {
             background-color: black !important;
             background: url('../../Images/drums.jpg');
         }
+
+
+
+        section .preview-image.snaredrums-nuss {
+            background-color: black !important;
+            background: url('../../Images/snaredrums/nuss/1.jpg');
+        }
+
+        section .preview-image.snaredrums-birke {
+            background-color: black !important;
+            background: url('../../Images/snaredrums/birke/1.jpg');
+        }
+
+        section .preview-image.snaredrums-birne {
+            background-color: black !important;
+            background: url('../../Images/snaredrums/birne/2.jpg');
+        }
+
+        section .preview-image.snaredrums-erle {
+            background-color: black !important;
+            background: url('../../Images/snaredrums/erle/11.jpg');
+        }
+
+
+
+
+
 
 
         section .preview-image.brandings {
@@ -360,4 +390,25 @@ section {
         section .section-header {
             margin-bottom: 200px;
         }
+}
+
+
+#swipebox-bottom-bar, #swipebox-top-bar {
+    text-shadow: none !important;
+    background: transparent !important;
+    opacity: 0.95;
+}
+
+#swipebox-bottom-bar {
+    bottom: 50% !important;
+}
+
+#swipebox-bottom-bar.visible-bars {
+    transform: none !important;
+}
+
+@media screen and (min-width: 800px) {
+    #swipebox-arrows {
+        max-width: 100% !important;
+    }
 }
