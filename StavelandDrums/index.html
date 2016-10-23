@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stavelanddrums</title>
 
+    <script src="https://use.fontawesome.com/9595b7ba18.js"></script>
     <link href="Style/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="Style/swipebox.min.css" rel="stylesheet" /> 
+    <link href="Style/swipebox.min.css" rel="stylesheet" />
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -37,7 +38,7 @@
                     <li><a href="#gallery">Galerie</a></li>
                     <li><a href="#product">Das Produkt</a></li>
                     <li><a href="#customers">Kundenmeinungen</a></li>
-                    <li><a href="#price">Preisliste</a></li>
+                    <li><a href="#instock">Auf Lager</a></li>
                     <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -46,12 +47,17 @@
 
 
     <section id="landingpage">
-        <img src="Images/background.jpg" />
-        <div>
+        <!--<img src="Images/background.jpg" />-->
+        <video controls="controls" poster="Images/background.jpg" autoplay autobuffer preload="auto" style="width: 100%">
+            <source src="Videos/production.mp4" type="video/mp4" />
+            <source src="Videos/production.ogg" type="video/ogg" />
+        </video>
+        <!--<div>
             <h1>STAVELAND DRUMS</h1>
             <h2>handcrafted stavedrums</h2>
-        </div>
+        </div>-->
     </section>
+
 
 
     <section id="citation" class="row">
@@ -96,15 +102,18 @@
             <h1>Gallerie</h1>
         </header>
 
+        <div class="col-md-8 col-md-offset-2">
+            Bilder sagen mehr als tausend Worte...
+        </div>
+
         <!--<div class="col-md-12" style="padding-bottom: 15px !important">
             <div class="preview-image snaredrums">
                 <div class="heading-background"></div>
                 <div class="heading">Snaredrums</div>
             </div>
         </div>-->
-
         <!-------------------- ROW1 -------------------->
-        <div class="col-md-3" style="padding-right: 5px !important">
+        <div class="col-md-3">
             <div class="preview-image snaredrums-nuss">
                 <div class="heading-background"></div>
                 <div class="heading">Snaredrums Nuss</div>
@@ -125,7 +134,7 @@
             </div>
         </div>
 
-        <div class="col-md-3" style="padding-left: 5px !important">
+        <div class="col-md-3">
             <div class="preview-image snaredrums-erle">
                 <div class="heading-background"></div>
                 <div class="heading">Snaredrums Erle</div>
@@ -133,7 +142,7 @@
         </div>
 
         <!-------------------- ROW2 -------------------->
-        <div class="col-md-4" style="padding-right: 5px !important">
+        <div class="col-md-4">
             <div class="preview-image brandings">
                 <div class="heading-background"></div>
                 <div class="heading">Brandings</div>
@@ -147,7 +156,7 @@
             </div>
         </div>
 
-        <div class="col-md-4" style="padding-left: 5px !important">
+        <div class="col-md-4">
             <div class="preview-image werkstatt">
                 <div class="heading-background"></div>
                 <div class="heading">Werkstatt</div>
@@ -235,11 +244,13 @@
             <!--<img src="Images/drum.jpg" class="img-circle">-->
             <img src="Images/kunden/Michael-Mitterlehner-Romm.jpg" />
         </div>
-        <div class="col-md-9 comment">Seit wir eine Kleine Trommel von Staveland Drums für das Mozarteumorchester erstanden haben bemühe ich mich wieder wesentlich öfter darum, den Trommel-Part zu spielen. Es ist ein echter Genuss, diese Trommel im großen Symphonieorchester zu spielen. Der typische warme Klang der Holz-Snare mischt sich wunderbar mit dem Streicherklang. In Verbindung mit den Bläsern hat die Trommel sowohl ausreichend Schärfe als auch Fülle im Klang. Sie spricht hochsensibel in den leisesten Passagen an und bietet nach oben hin alles, was man für ein dramatisches Finale im Fortisissimo braucht.
-Die Teppichabhebung funktioniert geräuschlos und leichtgängig. Eine Nachjustierung der Teppichspannung ist auch im gespannten Zustand jederzeit leichtgängig und geräuschlos möglich.
-Die Guss-Spannreifen bringen einen noch kompakteren, kräftigeren Klang.
-Besonders gerne spiele ich die Kleine Trommel von StavelandDrums mit einem Ziegenfell als Schlagfell. Der Klang ist dadurch generell runder, voller, etwas gedeckter. Sämtliche Nebengeräusche sind eliminiert. Das Spielgefühl ist wesentlich angenehmer und ein derart edles Instrument hat nichts weniger als ein edles Fell verdient.
- <i>Mag. Michael Mitterlehner-Romm, Mozarteumorchester Salzburg</i> </div>
+        <div class="col-md-9 comment">
+            Seit wir eine kleine Trommel von Staveland Drums für das Mozarteumorchester erstanden haben bemühe ich mich wieder wesentlich öfter darum, den Trommel-Part zu spielen. Es ist ein echter Genuss, diese Trommel im großen Symphonieorchester zu spielen. Der typische warme Klang der Holz-Snare mischt sich wunderbar mit dem Streicherklang. In Verbindung mit den Bläsern hat die Trommel sowohl ausreichend Schärfe als auch Fülle im Klang. Sie spricht hochsensibel in den leisesten Passagen an und bietet nach oben hin alles, was man für ein dramatisches Finale im Fortisissimo braucht.
+            Die Teppichabhebung funktioniert geräuschlos und leichtgängig. Eine Nachjustierung der Teppichspannung ist auch im gespannten Zustand jederzeit leichtgängig und geräuschlos möglich.
+            Die Guss-Spannreifen bringen einen noch kompakteren, kräftigeren Klang.
+            Besonders gerne spiele ich die Kleine Trommel von StavelandDrums mit einem Ziegenfell als Schlagfell. Der Klang ist dadurch generell runder, voller, etwas gedeckter. Sämtliche Nebengeräusche sind eliminiert. Das Spielgefühl ist wesentlich angenehmer und ein derart edles Instrument hat nichts weniger als ein edles Fell verdient.
+            <i>Mag. Michael Mitterlehner-Romm, Mozarteumorchester Salzburg</i>
+        </div>
         <!--<div class="col-md-3 text-right">
             <img src="Images/drum.jpg" class="img-circle">
         </div>
@@ -252,13 +263,17 @@ Besonders gerne spiele ich die Kleine Trommel von StavelandDrums mit einem Ziege
     </section>
 
 
-    <section id="price" class="row">
+    <section id="instock" class="row">
         <header class="section-header">
             <div class="image" data-parallax="scroll" data-image-src="/Images/drum.jpg"></div>
             <div class="mask"></div>
-            <h1>Preise</h1>
+            <h1>Auf Lager</h1>
         </header>
 
+
+        <div class="col-md-8 col-md-offset-2">
+            Natürlich fertigen wir jede Trommel individuell nach Kundenwunsch. Nichtsdestotrotz bieten wir folgende Modelle standardmäßig an:
+        </div>
     </section>
 
 
@@ -268,40 +283,43 @@ Besonders gerne spiele ich die Kleine Trommel von StavelandDrums mit einem Ziege
             <div class="mask"></div>
             <h1>Kontakt</h1>
         </header>
-
-
-        <div class="col-md-offset-4 col-md-4">
-
-            <div class="col-md-12" style="padding-bottom: 50px">
-                Stavelanddrums freut sich über jede Anfrage. Gib hier bitte deinen Wunsch/Frage/Bestellung ein und wir melden uns sobald wie möglich.
+    
+        <div class="col-md-8 col-md-offset-2" >
+            Nimm Verbindung mit uns auf! Stavelanddrums freut sich über jeden neuen Kontakt.
+        </div>           
+ 
+        <div class="col-md-offset-2 col-md-2">
+            <div class="image-link-container">
+                <a href="mailto:office@stavelanddrums.at" class="round-image-link">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                </a>
+                <p><a href="mailto:office@stavelanddrums.at">office@stavelanddrums.at</a></p>
             </div>
+        </div> 
 
-            <form class="form-horizontal">                
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">Name</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="email" class="col-sm-2 control-label">E-Mail</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" placeholder="E-Mail">
-                    </div>
-                </div>                
-                <div class="form-group">
-                    <label for="text" class="col-sm-2 control-label">Anfrage</label>
-                    <div class="col-sm-10">
-                        <textarea class="form-control" id="text" rows="10"></textarea>
-                    </div>
-                </div> 
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Abschicken</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+        <div class="col-md-2">
+            <div class="image-link-container">
+                <a href="tel:+436646565324" class="round-image-link">
+                    <i class="glyphicon glyphicon-earphone"></i>
+                </a>
+                <p><a href="tel:+436646565324">+43 664 6565 324</a></p>
+            </div>
+        </div> 
+
+        <div class="col-md-2">
+            <div class="image-link-container">
+                <a href="https://www.facebook.com/StavelanddrumsHandcrafted-Stavedrums-1647126685539079" class="round-image-link">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <p><a href="https://www.facebook.com/StavelanddrumsHandcrafted-Stavedrums-1647126685539079">Besuche uns auf Facebook</a></p>
+            </div>
+        </div> 
+
+        <div class="col-md-4">
+            <p>Stavelanddrums</p>
+            <p>Oberaich 34</p>
+            <p>4232 Hagenberg</p>
+        </div> 
     </section>
 
     <script>
@@ -323,111 +341,111 @@ Besonders gerne spiele ich die Kleine Trommel von StavelandDrums mit einem Ziege
         $('.preview-image.snaredrums-birke').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/birke/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/5.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/6.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/7.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/8.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/9.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/10.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birke/11.jpg', title: 'Beschreibung hier her!!!!' },
+                { href: 'Images/snaredrums/birke/1.jpg', title: null },
+                { href: 'Images/snaredrums/birke/2.jpg', title: null },
+                { href: 'Images/snaredrums/birke/3.jpg', title: null },
+                { href: 'Images/snaredrums/birke/4.jpg', title: null },
+                { href: 'Images/snaredrums/birke/5.jpg', title: null },
+                { href: 'Images/snaredrums/birke/6.jpg', title: null },
+                { href: 'Images/snaredrums/birke/7.jpg', title: null },
+                { href: 'Images/snaredrums/birke/8.jpg', title: null },
+                { href: 'Images/snaredrums/birke/9.jpg', title: null },
+                { href: 'Images/snaredrums/birke/10.jpg', title: null },
+                { href: 'Images/snaredrums/birke/11.jpg', title: null },
             ]);
         });
 
         $('.preview-image.snaredrums-birne').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/birne/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/5.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/6.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/7.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/8.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/9.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/10.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/11.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/birne/12.jpg', title: 'Beschreibung hier her!!!!' },
+                { href: 'Images/snaredrums/birne/1.jpg', title: null },
+                { href: 'Images/snaredrums/birne/2.jpg', title: null },
+                { href: 'Images/snaredrums/birne/3.jpg', title: null },
+                { href: 'Images/snaredrums/birne/4.jpg', title: null },
+                { href: 'Images/snaredrums/birne/5.jpg', title: null },
+                { href: 'Images/snaredrums/birne/6.jpg', title: null },
+                { href: 'Images/snaredrums/birne/7.jpg', title: null },
+                { href: 'Images/snaredrums/birne/8.jpg', title: null },
+                { href: 'Images/snaredrums/birne/9.jpg', title: null },
+                { href: 'Images/snaredrums/birne/10.jpg', title: null },
+                { href: 'Images/snaredrums/birne/11.jpg', title: null },
+                { href: 'Images/snaredrums/birne/12.jpg', title: null },
             ]);
         });
 
         $('.preview-image.snaredrums-nuss').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/nuss/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/5.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/6.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/7.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/8.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/9.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/10.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/11.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/nuss/12.jpg', title: 'Beschreibung hier her!!!!' },
+                { href: 'Images/snaredrums/nuss/1.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/2.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/3.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/4.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/5.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/6.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/7.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/8.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/9.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/10.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/11.jpg', title: null },
+                { href: 'Images/snaredrums/nuss/12.jpg', title: null },
             ]);
         });
 
         $('.preview-image.snaredrums-erle').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/erle/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/5.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/6.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/7.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/8.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/9.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/10.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/11.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/12.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/13.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/14.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/15.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/16.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/erle/17.jpg', title: 'Beschreibung hier her!!!!' },
+                { href: 'Images/snaredrums/erle/1.jpg', title: null },
+                { href: 'Images/snaredrums/erle/2.jpg', title: null },
+                { href: 'Images/snaredrums/erle/3.jpg', title: null },
+                { href: 'Images/snaredrums/erle/4.jpg', title: null },
+                { href: 'Images/snaredrums/erle/5.jpg', title: null },
+                { href: 'Images/snaredrums/erle/6.jpg', title: null },
+                { href: 'Images/snaredrums/erle/7.jpg', title: null },
+                { href: 'Images/snaredrums/erle/8.jpg', title: null },
+                { href: 'Images/snaredrums/erle/9.jpg', title: null },
+                { href: 'Images/snaredrums/erle/10.jpg', title: null },
+                { href: 'Images/snaredrums/erle/11.jpg', title: null },
+                { href: 'Images/snaredrums/erle/12.jpg', title: null },
+                { href: 'Images/snaredrums/erle/13.jpg', title: null },
+                { href: 'Images/snaredrums/erle/14.jpg', title: null },
+                { href: 'Images/snaredrums/erle/15.jpg', title: null },
+                { href: 'Images/snaredrums/erle/16.jpg', title: null },
+                { href: 'Images/snaredrums/erle/17.jpg', title: null },
             ]);
         });
 
         $('.preview-image.snaredrums').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/5.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/snaredrums/6.jpg', title: 'Beschreibung hier her!!!!' }
+                { href: 'Images/snaredrums/1.jpg', title: null },
+                { href: 'Images/snaredrums/2.jpg', title: null },
+                { href: 'Images/snaredrums/3.jpg', title: null },
+                { href: 'Images/snaredrums/4.jpg', title: null },
+                { href: 'Images/snaredrums/5.jpg', title: null },
+                { href: 'Images/snaredrums/6.jpg', title: null }
             ]);
         });
 
         $('.preview-image.brandings').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/brandings/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/brandings/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/brandings/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/brandings/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/brandings/5.jpg', title: 'Beschreibung hier her!!!!' },
+                { href: 'Images/brandings/1.jpg', title: null },
+                { href: 'Images/brandings/2.jpg', title: null },
+                { href: 'Images/brandings/3.jpg', title: null },
+                { href: 'Images/brandings/4.jpg', title: null },
+                { href: 'Images/brandings/5.jpg', title: null },
             ]);
         });
 
         $('.preview-image.woodblocks').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/woodblocks/1.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/woodblocks/2.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/woodblocks/3.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/woodblocks/4.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/woodblocks/5.jpg', title: 'Beschreibung hier her!!!!' },
-                { href: 'Images/woodblocks/6.jpg', title: 'Beschreibung hier her!!!!' }
+                { href: 'Images/woodblocks/1.jpg', title: null },
+                { href: 'Images/woodblocks/2.jpg', title: null },
+                { href: 'Images/woodblocks/3.jpg', title: null },
+                { href: 'Images/woodblocks/4.jpg', title: null },
+                { href: 'Images/woodblocks/5.jpg', title: null },
+                { href: 'Images/woodblocks/6.jpg', title: null }
             ]);
         });
     </script>

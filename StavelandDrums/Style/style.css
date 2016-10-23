@@ -11,6 +11,10 @@ body {
     background: url(../../Images/greyzz.png) repeat;
 }
 
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
 
 nav a {
@@ -245,14 +249,9 @@ section {
 
 /*Customer section*/
 #customers > div {
-    height: 150px;
     text-align: left;
     margin-bottom: 40px;
 }
-
-    #customers > div.comment {
-        padding-top: 75px !important;
-    }
 
     #customers > div > i {
         display: block;
@@ -263,8 +262,7 @@ section {
     }
 
     #customers > div > img {
-        height: 150px;
-        width: 150px;
+        width: 100%;
         text-align: left;
     }
 
@@ -282,6 +280,10 @@ section {
         display: inline-block;
     }
 
+
+#gallery > div {
+    padding: 10px !important;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -302,7 +304,7 @@ section {
         left: 430px;
     }
 
-    #price .section-header .image {
+    #instock .section-header .image {
         right: 220px;
     }
 
@@ -403,12 +405,40 @@ section {
     bottom: 50% !important;
 }
 
-#swipebox-bottom-bar.visible-bars {
-    transform: none !important;
-}
+    #swipebox-bottom-bar.visible-bars {
+        transform: none !important;
+    }
 
 @media screen and (min-width: 800px) {
     #swipebox-arrows {
         max-width: 100% !important;
     }
 }
+
+.image-link-container a {
+    font-size: 16px;
+    color: #333;
+}
+
+    .image-link-container a:hover {
+        color: #ccc;
+        text-decoration: none;
+    }
+
+
+.image-link-container a.round-image-link {
+    /* box-shadow: black 0 0 5px; */
+    /* padding: 15px; */
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+    display: inline-block;
+    background: rgba(0,0,0,0.6);
+}
+
+    .image-link-container a.round-image-link:hover {
+        color: #ccc;
+    }

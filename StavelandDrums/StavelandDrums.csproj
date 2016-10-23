@@ -127,6 +127,7 @@
     <Content Include="Style\style.css" />
     <Content Include="Style\swipebox.css" />
     <Content Include="Style\swipebox.min.css" />
+    <Content Include="Videos\production.mp4" />
     <Content Include="Videos\Produktion.wmv" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
@@ -139,6 +140,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="stavelanddrums - Web Deploy.pubxml" />
+    <Content Include="Videos\production.ogg" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
