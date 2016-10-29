@@ -48,9 +48,10 @@
 
     <section id="landingpage">
         <!--<img src="Images/background.jpg" />-->
-        <video controls="controls" poster="Images/background.jpg" autoplay autobuffer preload="auto" style="width: 100%">
-            <source src="Videos/production.mp4" type="video/mp4" />
-            <source src="Videos/production.ogg" type="video/ogg" />
+        <video controls="controls" poster="Images/background.jpg" autobuffer preload="auto" style="width: 100%">
+            <source src="Videos/production.mp4" />
+            <source src="Videos/production.mov" />
+            <!--<source src="Videos/production.ogg" type="video/ogg" />-->
         </video>
         <!--<div>
             <h1>STAVELAND DRUMS</h1>
@@ -73,9 +74,45 @@
             <div class="mask"></div>
             <h1>Stavelanddrums</h1>
         </header>
+        
+        <div class="col-md-8 col-md-offset-2 description-container">
+            <p>
+                Stavelanddrums wurde im Jahr 2015 gegründet. Eine große Leidenschaft und Hingabe für Musik bilden dafür den Grundstock.
+                Unser Team besteht aus zwei hochmotivierten Schlagzeugfreaks, dessen Kompetenzen sich bestens vereinen und so zu einer
+                fähigen Einheit verschmelzen.
+            </p>
+
+            <p>
+                Wir sehen unsere Aufgabe im Schlagzeugbau darin, den ästhetischen sowohl auch klanglichen Ansprüchen unserer Kunden
+                gerecht zu werden.
+            </p>
+
+            <p>
+                Wir spielen selbst seit vielen Jahren Schlagzeug. Von daher kommt auch die große Leidenschaft unsere Instrumente selbst
+                herzustellen und sie an Kunden weiterzuverkaufen, die den Wert an Handarbeit genauso zu schätzen wissen, wie wir selbst.
+            </p>            
+        </div>
+
+        <div class="col-md-8 col-md-offset-2 team-container">
+            <div class="col-md-3 col-md-offset-2">
+                <img src="Images/portrait_fischer_bernhard.jpg" class="img-rounded portrait" alt="Porträt Fischer Bernhard" />
+                <h3>
+                    Fischer Bernhard
+                    <small>Tischler und Instrumentenbauer - Produktion</small>
+                </h3>
+            </div>
+
+            <div class="col-md-3 col-md-offset-2">
+                <img src="Images/portrait_bart_juergen.jpg" class="img-rounded portrait" alt="Porträt Bart Jürgen" />
+                <h3>
+                    Bart Jürgen
+                    <small>Schlagzeuglehrer und Musiker - Vertrieb und Marketing</small>
+                </h3>
+            </div>
+        </div>
 
 
-        <div class="col-md-4">
+        <!--<div class="col-md-4">
             <h2>Ausbildung</h2>
             Meine abgeschlossene Lehre als Tischlergeselle und eine Instrumentenbauausbildung bilden den
             Grundstock für Stavelanddrums.
@@ -91,7 +128,7 @@
         <div class="col-md-4">
             <h2>Angebot</h2>
             Stavelanddrums baut Snaredrums, ganze Sets oder auf Wunsch auch nur Woodblocks.
-        </div>
+        </div>-->
     </section>
 
 
@@ -323,9 +360,9 @@
     </section>
 
     <script>
-        $(".navbar-fixed-top").autoHidingNavbar({
-            // see next for specifications
-        });
+        //$(".navbar-fixed-top").autoHidingNavbar({
+        //    // see next for specifications
+        //});
 
         var $root = $('html, body');
         $('a').click(function () {

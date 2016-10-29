@@ -6,6 +6,7 @@
 body {
     margin: 0;
     padding: 0;
+    padding-top: 50px;
     font-family: StMarie-Thin, 'Times New Roman', Times, serif !important;
     color: #eee;
     background: url(../../Images/greyzz.png) repeat;
@@ -38,8 +39,9 @@ nav a {
 
 
 .navbar-default {
-    background-color: rgba(0,0,0,0.6) !important;
-    border-color: #000 !important;
+    background-color: rgba(42, 28, 17, 0.9) !important;
+    border-color: #9b733e !important;
+    box-shadow: 0 0 5px;
 }
 
 .img-circle.shadow {
@@ -80,6 +82,19 @@ nav a {
         color: white;
         text-shadow: 0 0 4px #000;
     }
+
+#stavelanddrums img.portrait {
+    width: 100%;
+    max-width: 300px;
+}
+
+#stavelanddrums .team-container {
+    margin-top: 60px;
+}
+
+#stavelanddrums .description-container > p {
+    padding-bottom: 30px;
+}
 
 @media screen and (min-width: 768px) {
     #landingpage > div {
@@ -149,6 +164,7 @@ section {
 
     section .preview-image {
         position: relative;
+        border-radius: 6px;
         height: 350px;
         background-position-y: center !important;
         background-size: contain !important;
@@ -221,6 +237,7 @@ section {
         section .preview-image > .heading-background {
             background-color: black;
             opacity: 0.5;
+            border-radius: 0 0 6px 6px;
         }
 
         section .preview-image > .heading {
@@ -271,6 +288,7 @@ section {
 .section-header {
     height: 150px;
     position: relative;
+    background: rgba(20,0,0,0.1);
 }
 
     .section-header .image {
@@ -331,6 +349,8 @@ section {
     margin: 0;
     right: 0;
     margin-top: 27px;
+    font-weight: bold;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -426,19 +446,19 @@ section {
     }
 
 
-.image-link-container a.round-image-link {
-    /* box-shadow: black 0 0 5px; */
-    /* padding: 15px; */
-    color: white;
-    font-size: 40px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
-    display: inline-block;
-    background: rgba(0,0,0,0.6);
-}
-
-    .image-link-container a.round-image-link:hover {
-        color: #ccc;
+    .image-link-container a.round-image-link {
+        /* box-shadow: black 0 0 5px; */
+        /* padding: 15px; */
+        color: white;
+        font-size: 40px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+        display: inline-block;
+        background: rgba(0,0,0,0.6);
     }
+
+        .image-link-container a.round-image-link:hover {
+            color: #ccc;
+        }
