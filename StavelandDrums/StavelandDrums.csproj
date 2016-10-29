@@ -42,6 +42,8 @@
     <Content Include="Images\parallax\block1.jpg" />
     <Content Include="Images\parallax\block4.jpg" />
     <Content Include="Images\parallax\block2.jpg" />
+    <Content Include="Images\portrait_bart_juergen.jpg" />
+    <Content Include="Images\portrait_fischer_bernhard.jpg" />
     <Content Include="Images\snaredrums\1.jpg" />
     <Content Include="Images\snaredrums\2.jpg" />
     <Content Include="Images\snaredrums\3.jpg" />
