@@ -216,9 +216,9 @@ section {
             background: url('../../Images/brandings/brandings.jpg');
         }
 
-        section .preview-image.woodblocks {
-            background-color: #CDCBCE !important;
-            background: url('../../Images/woodblocks/woodblocks.jpg');
+        section .preview-image.sets {
+            background-color: black !important;
+            background: url('../../Images/schlagzeugsets/1.jpg');
         }
 
         section .preview-image.werkstatt {
