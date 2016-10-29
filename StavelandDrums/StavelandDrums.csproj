@@ -42,8 +42,6 @@
     <Content Include="Images\parallax\block1.jpg" />
     <Content Include="Images\parallax\block4.jpg" />
     <Content Include="Images\parallax\block2.jpg" />
-    <Content Include="Images\portrait_bart_juergen.jpg" />
-    <Content Include="Images\portrait_fischer_bernhard.jpg" />
     <Content Include="Images\snaredrums\1.jpg" />
     <Content Include="Images\snaredrums\2.jpg" />
     <Content Include="Images\snaredrums\3.jpg" />
@@ -131,7 +129,6 @@
     <Content Include="Style\swipebox.min.css" />
     <Content Include="Videos\production.mp4" />
     <Content Include="Videos\Produktion.wmv" />
-    <Content Include="Videos\production.mov" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
