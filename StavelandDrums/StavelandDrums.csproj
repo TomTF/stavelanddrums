@@ -29,6 +29,8 @@
     <Content Include="Images\brandings\3.jpg" />
     <Content Include="Images\brandings\4.jpg" />
     <Content Include="Images\brandings\5.jpg" />
+    <Content Include="Images\brandings\brandings_.jpg" />
+    <Content Include="Images\brandings\brandings_1.jpg" />
     <Content Include="Images\drum.jpg" />
     <None Include="Images\background.jpg_" />
     <Content Include="Images\gratungen\30-30.png" />
@@ -37,6 +39,12 @@
     <Content Include="Images\gratungen\45-round-over.png" />
     <Content Include="Images\greyzz.png" />
     <Content Include="Images\ignasi_pattern_s.png" />
+    <Content Include="Images\parallax\1.jpg" />
+    <Content Include="Images\parallax\17.jpg" />
+    <Content Include="Images\parallax\nuss.jpg" />
+    <Content Include="Images\parallax\set.JPG" />
+    <Content Include="Images\sticks.jpg" />
+    <Content Include="Images\naturfelle.jpg" />
     <Content Include="Images\kunden\Martin-Sedelmaier.jpg" />
     <Content Include="Images\kunden\Michael-Mitterlehner-Romm.jpg" />
     <Content Include="Images\oberflächen\lackiert.jpg" />
