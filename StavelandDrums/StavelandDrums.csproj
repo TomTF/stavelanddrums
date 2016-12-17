@@ -43,6 +43,15 @@
     <Content Include="Images\parallax\17.jpg" />
     <Content Include="Images\parallax\nuss.jpg" />
     <Content Include="Images\parallax\set.JPG" />
+    <Content Include="Images\snaredrums\nuss-amerik\1.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\2.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\3.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\4.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\5.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\6.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\7.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\8.jpg" />
+    <Content Include="Images\snaredrums\nuss-amerik\9.jpg" />
     <Content Include="Images\sticks.jpg" />
     <Content Include="Images\naturfelle.jpg" />
     <Content Include="Images\kunden\Martin-Sedelmaier.jpg" />
@@ -166,13 +175,14 @@
     <Content Include="Scripts\jquery.swipebox.min.js" />
     <Content Include="Scripts\parallax.min.js" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="Videos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\readmore.min.js" />
     <Content Include="Style\style.css" />
     <Content Include="Style\swipebox.css" />
     <Content Include="Style\swipebox.min.css" />
-    <Content Include="Videos\production.mp4" />
-    <Content Include="Videos\Produktion.wmv" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -184,7 +194,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="stavelanddrums - Web Deploy.pubxml" />
-    <Content Include="Videos\production.ogg" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

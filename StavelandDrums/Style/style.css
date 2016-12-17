@@ -8,7 +8,8 @@ body {
     padding: 0;
     padding-top: 50px;
     font-family: StMarie-Thin, 'Times New Roman', Times, serif !important;
-    color: #eee;
+    /*color: #eee;*/
+    color: #111 !important;
     background: url(../../Images/greyzz.png) repeat;
 }
 
@@ -89,7 +90,7 @@ nav a {
 }
 
 #stavelanddrums .team-container {
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 #stavelanddrums .description-container > p {
@@ -142,7 +143,7 @@ nav a {
 }*/
 
 section {
-    margin-top: 100px;
+    margin-top: 50px;
     position: relative;
 }
 
@@ -152,12 +153,12 @@ section {
 
     section > div {
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         padding: 40px !important;
     }
 
         section > div > h2 {
-            font-size: 30px;
+            font-size: 26px;
             margin-top: 20px;
             padding: 4px 10px 50px 4px;
         }
@@ -188,6 +189,11 @@ section {
         section .preview-image.snaredrums-nuss {
             background-color: black !important;
             background: url('../../Images/snaredrums/nuss/1.jpg');
+        }
+
+        section .preview-image.snaredrums-nuss-amerik {
+            background-color: black !important;
+            background: url('../../Images/snaredrums/nuss-amerik/1.jpg');
         }
 
         section .preview-image.snaredrums-birke {
@@ -279,10 +285,10 @@ section {
         text-align: right;
     }
 
-    #customers img.customer-image {
-        width: 100%;
-        text-align: left;
-    }
+#customers img.customer-image {
+    width: 100%;
+    text-align: left;
+}
 
 
 

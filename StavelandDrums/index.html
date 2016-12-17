@@ -36,9 +36,9 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="#product">Das Produkt</a></li>
+                    <li><a href="#product">Produkte</a></li>
                     <li><a href="#customers">Kundenmeinungen</a></li>
-                    <li><a href="#instock">Auf Lager</a></li>
+                    <li><a href="#instock">Shop</a></li>
                     <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -93,18 +93,18 @@
         </div>
 
         <div class="col-md-8 col-md-offset-2 team-container">
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-4 col-md-offset-2">
                 <img src="Images/portrait_fischer_bernhard.jpg" class="img-rounded portrait" alt="Porträt Fischer Bernhard" />
                 <h3>
-                    Fischer Bernhard
+                    Bernhard Fischer
                     <small>Tischler und Instrumentenbauer - Produktion</small>
                 </h3>
             </div>
 
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-4 col-md-offset-1">
                 <img src="Images/portrait_bart_juergen.jpg" class="img-rounded portrait" alt="Porträt Barth Jürgen" />
                 <h3>
-                    Barth Jürgen
+                    Jürgen Barth
                     <small>Schlagzeuglehrer und Musiker - Vertrieb und Marketing</small>
                 </h3>
             </div>
@@ -178,21 +178,28 @@
         </div>
 
         <!-------------------- ROW2 -------------------->
-        <div class="col-md-4">
+        <div class="col-md-3">
+            <div class="preview-image snaredrums-nuss-amerik">
+                <div class="heading-background"></div>
+                <div class="heading">Snaredrums amerik. Nuss</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="preview-image brandings">
                 <div class="heading-background"></div>
                 <div class="heading">Brandings</div>
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="preview-image sets">
                 <div class="heading-background"></div>
                 <div class="heading">Schlagzeugsets</div>
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="preview-image werkstatt">
                 <div class="heading-background"></div>
                 <div class="heading">Werkstatt</div>
@@ -274,7 +281,7 @@
             <div class="col-md-4">
                 <img src="Images/sticks.jpg" class="img-rounded" style="width: 100%" />
                 <br /> <br />
-                Sticks: Gerne bieten wir auch Sticks von unserem Partner <a href="http://www.ridderbusch-schlegel.at/">Ridderbusch</a> an.
+                Sticks: Gerne bieten wir auch Sticks von unserem Partner <a href="http://www.ridderbusch-schlegel.at/" target="_blank">Ridderbusch</a> an.
             </div>
             <div class="col-md-4">
                 <img src="Images/brandings/brandings_.jpg" class="img-rounded" style="width: 100%" />
@@ -329,7 +336,7 @@
         <header class="section-header">
             <div class="image" data-parallax="scroll" data-image-src="/Images/parallax/1.jpg"></div>
             <div class="mask"></div>
-            <h1>Auf Lager</h1>
+            <h1>Shop</h1>
         </header>
 
 
@@ -384,10 +391,10 @@
 
         <div class="col-md-2">
             <div class="image-link-container">
-                <a href="https://www.facebook.com/StavelanddrumsHandcrafted-Stavedrums-1647126685539079" class="round-image-link">
+                <a href="https://www.facebook.com/StavelanddrumsHandcrafted-Stavedrums-1647126685539079" target="_blank" class="round-image-link">
                     <i class="fa fa-facebook"></i>
                 </a>
-                <p><a href="https://www.facebook.com/StavelanddrumsHandcrafted-Stavedrums-1647126685539079">Besuche uns auf Facebook</a></p>
+                <p><a href="https://www.facebook.com/StavelanddrumsHandcrafted-Stavedrums-1647126685539079" target="_blank">Besuche uns auf Facebook</a></p>
             </div>
         </div>
 
@@ -413,6 +420,7 @@
             });
             return false;
         });
+
 
         $('.preview-image.snaredrums-birke').click(function (e) {
             e.preventDefault();
@@ -467,6 +475,22 @@
             ]);
         });
 
+        $('.preview-image.snaredrums-nuss-amerik').click(function (e) {
+            e.preventDefault();
+            $.swipebox([
+                { href: 'Images/snaredrums/nuss-amerik/1.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/2.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/3.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/4.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/5.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/6.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/7.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/8.jpg', title: null },
+                { href: 'Images/snaredrums/nuss-amerik/9.jpg', title: null }
+            ]);
+        });
+
+
         $('.preview-image.snaredrums-erle').click(function (e) {
             e.preventDefault();
             $.swipebox([
@@ -507,7 +531,7 @@
             $.swipebox([
                 { href: 'Images/brandings/1.jpg', title: null },
                 { href: 'Images/brandings/2.jpg', title: null },
-                { href: 'Images/brandings/3.jpg', title: null },
+                //{ href: 'Images/brandings/3.jpg', title: null },
                 { href: 'Images/brandings/4.jpg', title: null },
                 { href: 'Images/brandings/5.jpg', title: null },
             ]);
