@@ -10,7 +10,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -195,6 +195,7 @@
     <Content Include="img\icons.png" />
     <Content Include="img\icons.svg" />
     <Content Include="img\loader.gif" />
+    <Content Include="impressum.html" />
     <Content Include="index.html" />
     <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.min.js" />
   </ItemGroup>

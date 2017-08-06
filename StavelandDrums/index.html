@@ -1,10 +1,14 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en">
+<html lang="de-at">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stavelanddrums</title>
+    <title>Stavelanddrums - Schlagzeuge in Stave-Bauweise</title>
+    <meta name="description" content="Stavelanddrums fertigt ästhetisch und klanglich beeindruckende Schlagzeuge in Stave-Bauweise gänzlich von Hand."/>
+    <meta name="keywords" content="Schlagzeug, handgefertigt, Stave, Snare, drum" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <script src="https://use.fontawesome.com/9595b7ba18.js"></script>
     <link href="Style/style.css" rel="stylesheet" />
@@ -13,12 +17,46 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="Scripts/jquery.bootstrap-autohidingnavbar.min.js"></script>
     <script src="Scripts/parallax.min.js"></script>
     <script src="Scripts/jquery.swipebox.min.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "rgba(42, 28, 17, 0.9)"
+                    },
+                    "button": {
+                        "background": "rgb(176, 151, 121)"
+                    }
+                },
+                "content": {
+                    "message": "Diese Webseite verwendet Cookies, um Ihnen ein angenehmeres Surfen zu ermöglichen",
+                    "dismiss": "Bitte bestätigen!",
+                    "link": "Mehr erfahren"
+                }
+            })
+        });
+    </script>
 </head>
 <body>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-104147374-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,7 +85,7 @@
 
 
     <section id="landingpage">
-        <img src="Images/background.jpg" />
+        <img src="Images/background.jpg" alt="landingpage background" />
         <!--<video controls="controls" poster="Images/background.jpg" autobuffer preload="auto" style="width: 100%">
             <source src="Videos/production.mp4" />
             <source src="Videos/production.mov" />
@@ -71,18 +109,18 @@
         <header class="section-header">
             <div class="image" data-parallax="scroll" data-image-src="/Images/parallax/nuss.jpg"></div>
             <div class="mask"></div>
-            <h1>Stavelanddrums</h1>
+            <h1>Stavelanddrums Schlagzeuge</h1>
         </header>
 
         <div class="col-md-8 col-md-offset-2 description-container">
             <p>
                 Stavelanddrums wurde im Jahr 2015 gegründet. Eine große Leidenschaft und Hingabe für Musik bilden dafür den Grundstock.
-                Unser Team besteht aus zwei hochmotivierten Schlagzeugfreaks, dessen Kompetenzen sich bestens vereinen und so zu einer
+                Unser Team besteht aus zwei hochmotivierten Schlagzeugfreaks, deren Kompetenzen sich bestens vereinen und so zu einer
                 fähigen Einheit verschmelzen.
             </p>
 
             <p>
-                Wir sehen unsere Aufgabe im Schlagzeugbau darin, den ästhetischen sowohl auch klanglichen Ansprüchen unserer Kunden
+                Wir sehen unsere Aufgabe im Schlagzeugbau darin, den ästhetischen als auch den klanglichen Ansprüchen unserer Kunden
                 gerecht zu werden.
             </p>
 
@@ -135,7 +173,7 @@
         <header class="section-header right">
             <div class="image" data-parallax="scroll" data-image-src="/Images/parallax/17.jpg"></div>
             <div class="mask"></div>
-            <h1>Gallerie</h1>
+            <h1>Galerie</h1>
         </header>
 
         <div class="col-md-8 col-md-offset-2">
@@ -239,19 +277,20 @@
         <div class="col-md-4">
             <h2>Holz</h2>
             Produkte von Stavelanddrums werden vorwiegend aus <b>heimischen Hölzern</b> hergestellt.
-            Das Holz wird erst verarbeitet, wenn es gut getrocknet wurde, um Spannungen im Kessel zu vermeiden.
+            Um Spannungen im Holz zu vermeiden wird das Holz erst verarbeitet nachdem es perfekt
+            getrocknet ist.
             Verwendet werden: Birke, Walnuss, Eiche, Birne, Zwetschke, Esche usw.
         </div>
 
         <div class="col-md-4 image-list right">
             <h2>Oberflächen</h2>
-            <div class="col-xs-7">Geölt</div>
+            <div class="col-xs-7">geölt</div>
             <div class="col-xs-5">
-                <img src="Images/oberflächen/geoelt.jpg" class="img-circle">
+                <img src="Images/oberflächen/geoelt.jpg" class="img-circle" alt="Oberfläche geölt">
             </div>
-            <div class="col-xs-7">Lackiert</div>
+            <div class="col-xs-7">lackiert</div>
             <div class="col-xs-5">
-                <img src="Images/oberflächen/lackiert.jpg" class="img-circle">
+                <img src="Images/oberflächen/lackiert.jpg" class="img-circle" alt="Oberfläche lackiert">
             </div>
         </div>
 
@@ -285,21 +324,21 @@
 
 
             <div class="col-md-4">
-                <img src="Images/naturfelle.jpg" class="img-rounded" style="width: 100%" />
+                <img src="Images/naturfelle.jpg" class="img-rounded" style="width: 100%" alt="Naturfelle"/>
                 <br /> <br />
                 Naturfelle: Auf Wunsch können auch Naturfelle aufgezogen werden. Diese sorgen für einen wärmeren Sound mit weniger Obertönen.
                 Besonders beliebt bei Orchesterspielern.
             </div>
             <div class="col-md-4">
-                <img src="Images/sticks.jpg" class="img-rounded" style="width: 100%" />
+                <img src="Images/sticks.jpg" class="img-rounded" style="width: 100%" alt="Ridderbusch Sticks" />
                 <br /> <br />
                 Sticks: Gerne bieten wir auch Sticks von unserem Partner <a href="http://www.ridderbusch-schlegel.at/" target="_blank">Ridderbusch</a> an.
             </div>
             <div class="col-md-4">
-                <img src="Images/brandings/brandings_.jpg" class="img-rounded" style="width: 100%" />
+                <img src="Images/brandings/brandings_.jpg" class="img-rounded" style="width: 100%" alt="Brandings" />
                 <br /> <br />
                 Brandmotive: Wunschmotive können per Mail als PDF gesendet werden.
-                Auf Wunsch kann das Motiv auch  von uns entworfen werden.
+                Gerne entwerfen wir auf Wunsch ein individuelles Motiv.
             </div>
         </div>
     </section>
@@ -315,7 +354,7 @@
         <div>
             <div class="col-md-3 text-right">
                 <!--<img src="Images/drum.jpg" class="img-circle">-->
-                <img src="Images/kunden/Michael-Mitterlehner-Romm.jpg" class="img-rounded customer-image" />
+                <img src="Images/kunden/Michael-Mitterlehner-Romm.jpg" class="img-rounded customer-image" alt="Michael Mitterlehner Romm"/>
             </div>
             <div class="col-md-9 comment">
                 Seit wir eine kleine Trommel von Staveland Drums für das Mozarteumorchester erstanden haben bemühe ich mich wieder wesentlich öfter darum, den Trommel-Part zu spielen. Es ist ein echter Genuss, diese Trommel im großen Symphonieorchester zu spielen. Der typische warme Klang der Holz-Snare mischt sich wunderbar mit dem Streicherklang. In Verbindung mit den Bläsern hat die Trommel sowohl ausreichend Schärfe als auch Fülle im Klang. Sie spricht hochsensibel in den leisesten Passagen an und bietet nach oben hin alles, was man für ein dramatisches Finale im Fortisissimo braucht.
@@ -329,7 +368,7 @@
         <div>
             <div class="col-md-3 text-right">
                 <!--<img src="Images/drum.jpg" class="img-circle">-->
-                <img src="Images/kunden/Martin-Sedelmaier.jpg" class="img-rounded customer-image" />
+                <img src="Images/kunden/Martin-Sedelmaier.jpg" class="img-rounded customer-image" alt="Martin Sedelmaier" />
             </div>
             <div class="col-md-9 comment">
                 Die Bandbreite der Bad Reichenhaller Philharmonie reicht vom Barock bis zur Moderne.
@@ -344,7 +383,7 @@
         <div>
             <div class="col-md-3 text-right">
                 <!--<img src="Images/drum.jpg" class="img-circle">-->
-                <img src="Images/kunden/Stefan-Reichinger.jpg" class="img-rounded customer-image" />
+                <img src="Images/kunden/Stefan-Reichinger.jpg" class="img-rounded customer-image" alt="Stefan Reichinger"/>
             </div>
             <div class="col-md-9 comment">
                 Die kleine Trommel von Staveland findet bei mir einen vielseitigen Einsatzbereich.
@@ -370,17 +409,17 @@
         </div>
 
         <div class="col-md-5 col-md-offset-1">
-            <img class="img-rounded" src="Images/snaredrums/birne/2.jpg" style="width: 100%" />
+            <img class="img-rounded" src="Images/snaredrums/birne/2.jpg" style="width: 100%" alt="Snaredrum Birne" />
             Snaredrum Birne.
         </div>
 
         <div class="col-md-5">
-            <img class="img-rounded" src="Images/snaredrums/birke/1.jpg" style="width: 100%" />
+            <img class="img-rounded" src="Images/snaredrums/birke/1.jpg" style="width: 100%" alt="Snaredrum Birke"/>
             Snaredrum Birke.
         </div>
 
         <div class="col-md-12">
-            <h2>Für weitere Impressionen besuchen Sie unsere <a href="#gallery">Gallerie</a></h2>
+            <h2>Für weitere Impressionen besuchen Sie unsere <a href="#gallery">Galerie</a></h2>
         </div>
     </section>
 
@@ -427,6 +466,10 @@
             <p>Stavelanddrums</p>
             <p>Oberaich 34</p>
             <p>4232 Hagenberg</p>
+        </div>
+
+        <div class="col-md-12 impressum-link-container">
+            <a href="impressum.html">Impressum</a>
         </div>
     </section>
 

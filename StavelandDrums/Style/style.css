@@ -326,7 +326,7 @@ section {
 
 
     #stavelanddrums .section-header .image {
-        right: 380px;
+        right: 600px;
     }
 
     #gallery .section-header .image {
@@ -454,7 +454,7 @@ section {
     }
 }
 
-.image-link-container a {
+.image-link-container a, .impressum-link-container a {
     font-size: 16px;
     color: #333;
 }
