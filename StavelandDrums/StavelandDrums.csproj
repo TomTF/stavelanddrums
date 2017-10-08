@@ -17,6 +17,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
@@ -31,8 +32,15 @@
     <Content Include="Images\brandings\5.jpg" />
     <Content Include="Images\brandings\brandings_.jpg" />
     <Content Include="Images\brandings\brandings_1.jpg" />
+    <Content Include="Images\carousel\1.jpg" />
+    <Content Include="Images\carousel\2.JPG" />
+    <Content Include="Images\carousel\3.jpg" />
+    <Content Include="Images\carousel\4.jpg" />
+    <Content Include="Images\carousel\5.jpg" />
+    <Content Include="Images\carousel\6.jpg" />
+    <Content Include="Images\carousel\7.JPG" />
+    <Content Include="Images\carousel\8.jpg" />
     <Content Include="Images\drum.jpg" />
-    <None Include="Images\background.jpg_" />
     <Content Include="Images\gratungen\30-30.png" />
     <Content Include="Images\gratungen\30-round-over.png" />
     <Content Include="Images\gratungen\45-45.png" />
@@ -55,6 +63,22 @@
     <Content Include="Images\snaredrums\birke\12.jpg" />
     <Content Include="Images\snaredrums\birke\13.jpg" />
     <Content Include="Images\snaredrums\birke\14.jpg" />
+    <Content Include="Images\snaredrums\erle2\1.JPG" />
+    <Content Include="Images\snaredrums\erle2\2.JPG" />
+    <Content Include="Images\snaredrums\erle2\3.JPG" />
+    <Content Include="Images\snaredrums\erle2\4.JPG" />
+    <Content Include="Images\snaredrums\erle2\5.JPG" />
+    <Content Include="Images\snaredrums\mix\1.JPG" />
+    <Content Include="Images\snaredrums\mix\10.JPG" />
+    <Content Include="Images\snaredrums\mix\11.JPG" />
+    <Content Include="Images\snaredrums\mix\2.JPG" />
+    <Content Include="Images\snaredrums\mix\3.JPG" />
+    <Content Include="Images\snaredrums\mix\4.JPG" />
+    <Content Include="Images\snaredrums\mix\5.JPG" />
+    <Content Include="Images\snaredrums\mix\6.JPG" />
+    <Content Include="Images\snaredrums\mix\7.JPG" />
+    <Content Include="Images\snaredrums\mix\8.JPG" />
+    <Content Include="Images\snaredrums\mix\9.JPG" />
     <Content Include="Images\snaredrums\nuss-amerik\1.jpg" />
     <Content Include="Images\snaredrums\nuss-amerik\2.jpg" />
     <Content Include="Images\snaredrums\nuss-amerik\3.jpg" />
@@ -72,6 +96,23 @@
     <Content Include="Images\snaredrums\nuss-gebrannt\6.jpg" />
     <Content Include="Images\snaredrums\nuss-gebrannt\7.jpg" />
     <Content Include="Images\snaredrums\nuss-gebrannt\8.jpg" />
+    <Content Include="Images\snaredrums\nuss2\1.JPG" />
+    <Content Include="Images\snaredrums\nuss2\10.JPG" />
+    <Content Include="Images\snaredrums\nuss2\11.JPG" />
+    <Content Include="Images\snaredrums\nuss2\12.JPG" />
+    <Content Include="Images\snaredrums\nuss2\13.JPG" />
+    <Content Include="Images\snaredrums\nuss2\14.JPG" />
+    <Content Include="Images\snaredrums\nuss2\15.JPG" />
+    <Content Include="Images\snaredrums\nuss2\16.JPG" />
+    <Content Include="Images\snaredrums\nuss2\17.JPG" />
+    <Content Include="Images\snaredrums\nuss2\2.JPG" />
+    <Content Include="Images\snaredrums\nuss2\3.JPG" />
+    <Content Include="Images\snaredrums\nuss2\4.JPG" />
+    <Content Include="Images\snaredrums\nuss2\5.JPG" />
+    <Content Include="Images\snaredrums\nuss2\6.JPG" />
+    <Content Include="Images\snaredrums\nuss2\7.JPG" />
+    <Content Include="Images\snaredrums\nuss2\8.JPG" />
+    <Content Include="Images\snaredrums\nuss2\9.JPG" />
     <Content Include="Images\sticks.jpg" />
     <Content Include="Images\naturfelle.jpg" />
     <Content Include="Images\kunden\Martin-Sedelmaier.jpg" />
