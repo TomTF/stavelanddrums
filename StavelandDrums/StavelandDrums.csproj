@@ -36,10 +36,6 @@
     <Content Include="Images\carousel\2.JPG" />
     <Content Include="Images\carousel\3.jpg" />
     <Content Include="Images\carousel\4.jpg" />
-    <Content Include="Images\carousel\5.jpg" />
-    <Content Include="Images\carousel\6.jpg" />
-    <Content Include="Images\carousel\7.JPG" />
-    <Content Include="Images\carousel\8.jpg" />
     <Content Include="Images\drum.jpg" />
     <Content Include="Images\gratungen\30-30.png" />
     <Content Include="Images\gratungen\30-round-over.png" />
@@ -238,6 +234,7 @@
     <Content Include="img\loader.gif" />
     <Content Include="impressum.html" />
     <Content Include="index.html" />
+    <Content Include="Scripts\image-scale.min.js" />
     <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.min.js" />
   </ItemGroup>
   <ItemGroup>

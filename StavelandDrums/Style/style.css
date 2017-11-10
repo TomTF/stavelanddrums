@@ -89,15 +89,16 @@ nav a {
 
 #carousel {
     height: calc(100vh - 50px);
+    /*height: 500px;*/
 }
 
     #carousel .carousel-inner {
         height: calc(100vh - 50px);
+        /*height: 500px;*/
     }
 
-        #carousel .carousel-inner img {
-            height: 100%;
-            width: auto;
+        #carousel .carousel-inner > .item {
+            overflow: visible !important;
         } 
 
 #stavelanddrums img.portrait {
@@ -126,7 +127,7 @@ nav a {
 
 @media screen and (max-width: 768px) {
     #landingpage > div {
-        top: 50px;
+        /*top: 50px;*/
     }
 
         #landingpage > div > h1 {
