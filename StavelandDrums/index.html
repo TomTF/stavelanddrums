@@ -19,16 +19,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="Scripts/parallax.min.js"></script>
     <script src="Scripts/jquery.swipebox.min.js"></script>
-    <script src="Scripts/image-scale.min.js" type="text/javascript"></script>
-
-
+    <!--<script src="Scripts/image-scale.min.js" type="text/javascript"></script>-->
+    <script src="Scripts/images-loaded.js"></script>
+    <script src="Scripts/image-fill.js"></script>
 
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        $(function () {
-            $("img.scale").imageScale({ rescaleOnResize: true, align: 'center', scale: 'best-fill' });
-        });
+        //$(function () {
+        //    $("img.scale").imageScale({ rescaleOnResize: true, align: 'center', scale: 'best-fill' });
+        //});
 
         window.addEventListener("load", function () {
             window.cookieconsent.initialise({
@@ -540,6 +540,8 @@
         //    // see next for specifications
         //});
 
+        $('img.scale').imagefill();
+
         var $root = $('html, body');
         $('a').click(function () {
             var href = $.attr(this, 'href');
@@ -625,40 +627,40 @@
         $('.preview-image.snaredrums-nuss-2').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/nuss2/1.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/2.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/3.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/4.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/5.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/6.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/7.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/8.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/9.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/10.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/11.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/12.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/13.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/14.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/15.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/16.jpg', title: null },
-                { href: 'Images/snaredrums/nuss2/17.jpg', title: null },
+                { href: 'Images/snaredrums/nuss2/1.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/2.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/3.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/4.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/5.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/6.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/7.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/8.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/9.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/10.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/11.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/12.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/13.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/14.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/15.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/16.JPG', title: null },
+                { href: 'Images/snaredrums/nuss2/17.JPG', title: null },
             ]);
         });
 
         $('.preview-image.snaredrums-mix').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/mix/1.jpg', title: null },
-                { href: 'Images/snaredrums/mix/2.jpg', title: null },
-                { href: 'Images/snaredrums/mix/3.jpg', title: null },
-                { href: 'Images/snaredrums/mix/4.jpg', title: null },
-                { href: 'Images/snaredrums/mix/5.jpg', title: null },
-                { href: 'Images/snaredrums/mix/6.jpg', title: null },
-                { href: 'Images/snaredrums/mix/7.jpg', title: null },
-                { href: 'Images/snaredrums/mix/8.jpg', title: null },
-                { href: 'Images/snaredrums/mix/9.jpg', title: null },
-                { href: 'Images/snaredrums/mix/10.jpg', title: null },
-                { href: 'Images/snaredrums/mix/11.jpg', title: null },
+                { href: 'Images/snaredrums/mix/1.JPG', title: null },
+                { href: 'Images/snaredrums/mix/2.JPG', title: null },
+                { href: 'Images/snaredrums/mix/3.JPG', title: null },
+                { href: 'Images/snaredrums/mix/4.JPG', title: null },
+                { href: 'Images/snaredrums/mix/5.JPG', title: null },
+                { href: 'Images/snaredrums/mix/6.JPG', title: null },
+                { href: 'Images/snaredrums/mix/7.JPG', title: null },
+                { href: 'Images/snaredrums/mix/8.JPG', title: null },
+                { href: 'Images/snaredrums/mix/9.JPG', title: null },
+                { href: 'Images/snaredrums/mix/10.JPG', title: null },
+                { href: 'Images/snaredrums/mix/11.JPG', title: null },
             ]);
         });
 
@@ -718,11 +720,11 @@
         $('.preview-image.snaredrums-erle-2').click(function (e) {
             e.preventDefault();
             $.swipebox([
-                { href: 'Images/snaredrums/erle2/1.jpg', title: null },
-                { href: 'Images/snaredrums/erle2/2.jpg', title: null },
-                { href: 'Images/snaredrums/erle2/3.jpg', title: null },
-                { href: 'Images/snaredrums/erle2/4.jpg', title: null },
-                { href: 'Images/snaredrums/erle2/5.jpg', title: null },
+                { href: 'Images/snaredrums/erle2/1.JPG', title: null },
+                { href: 'Images/snaredrums/erle2/2.JPG', title: null },
+                { href: 'Images/snaredrums/erle2/3.JPG', title: null },
+                { href: 'Images/snaredrums/erle2/4.JPG', title: null },
+                { href: 'Images/snaredrums/erle2/5.JPG', title: null },
             ]);
         });
 

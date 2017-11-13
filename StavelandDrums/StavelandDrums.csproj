@@ -234,7 +234,9 @@
     <Content Include="img\loader.gif" />
     <Content Include="impressum.html" />
     <Content Include="index.html" />
+    <Content Include="Scripts\image-fill.js" />
     <Content Include="Scripts\image-scale.min.js" />
+    <Content Include="Scripts\images-loaded.js" />
     <Content Include="Scripts\jquery.bootstrap-autohidingnavbar.min.js" />
   </ItemGroup>
   <ItemGroup>
